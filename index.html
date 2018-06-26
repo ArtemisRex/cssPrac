@@ -50,12 +50,16 @@ a:active {
     text-decoration: underline;
 }
 </style>
-<body>
+<body style="background-image:url('greatBear.jpg')">
 
 <h1>This is a heading</h1>
 <p>This is a paragraph.</p>
 <p id="p01">I am different</p>
 <p class="error">I am different too!</p>
+
+<h2>Background Image</h2>
+
+<p>By default the background image will repeat itself if it is smaller than the element where it is specified, in this case the BODY element.</p>
 
 <h2>Local Links</h2>
 
@@ -123,6 +127,13 @@ a:active {
 
 <h1>More Images!</h1>
  <img src="https://www.w3schools.com/images/w3schools_green.jpg" alt="W3Schools.com"> 
+
+
+ <p><img src="smiley.jpg" alt="Smiley face" style="float:right;width:42px;height:42px;">
+The image will float to the right of the text.</p>
+
+<p><img src="smiley.jpg" alt="Smiley face" style="float:left;width:42px;height:42px;">
+The image will float to the left of the text.</p> 
 
 </body>
 </html>
