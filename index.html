@@ -3,16 +3,38 @@
 <head>
   <meta charset="utf-8">
   <title>Practice CSS</title>
+<!-- could also link to a style sheet 
+where styles.css contains the same 
+syntax as the style elements below in a seperate file
+or link to file hosted elsewhere
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://www.w3schools.com/html/styles.css">
+-->
+
 </head>
 <style>
 body {background-color: powderblue;}
-h1   {color: blue;}
-p    {color: red;}
+h1   {color: blue;
+      font-family: verdana;
+      font-size: 300%;
+     }
+p    {color: red;
+      font-family: courier;
+      font-size: 160%;
+      border: 1px solid black;
+      padding: 30px;
+      margin: 50px;
+     }
+#p01 {color: green;      
+     }
+p.error {color: red;
+        }
 </style>
 <body>
 
 <h1>This is a heading</h1>
 <p>This is a paragraph.</p>
-
+<p id="p01">I am different</p>
+<p class="error">I am different too!</p>
 </body>
 </html>
